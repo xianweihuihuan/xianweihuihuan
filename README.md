@@ -38,7 +38,7 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=c,cpp,go,python,linux,docker&theme=dark" height="50" />
+<img src="https://skillicons.dev/icons?i=c,cpp,go,python,linux,docker,git,cmake,bash,pytorch,github,vscode&theme=dark" height="50" />
 
 <br><br>
 
