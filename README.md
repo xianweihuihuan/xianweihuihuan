@@ -8,6 +8,10 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=6E40C9&center=true&vCenter=true&random=false&width=520&lines=OS+Kernel+Developer;Database+Engine+Builder;Distributed+Systems+Practitioner;LLM+Inference+Explorer" />
 
+<br>
+
+*✨「 取法乎上，仅得其中；取法乎中，斯为下矣。」*
+
 <br><br>
 
 ![C](https://img.shields.io/badge/C-39.2%25-00599C?style=flat-square&logo=c&logoColor=white)
@@ -22,12 +26,10 @@
 
 ### 🧑‍💻 About Me
 
-> *取法乎上，仅得其中；取法乎中，斯为下矣。*
-
 - 🎓 **西安邮电大学** 在读，专注 **系统底层** 与 **基础架构** 方向
 - 🔬 深入研究 **操作系统内核**、**数据库引擎**、**分布式系统** 三大核心领域
 - 🤖 持续探索 **LLM 推理优化**（vLLM / PagedAttention）与 **AI Agent** 前沿技术
-- 🏅 以 **CMU 15-445** / **MIT 6.8540** 等世界顶级课程为标杆，保持高标准的技术追求
+- 🏅 注重 **底层原理**，通过 **CMU 15-445** / **MIT 6.8540** 等课程打透每一层系统抽象
 
 ---
 
@@ -35,9 +37,7 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=c,cpp,go,python&theme=dark" height="50" />&nbsp;&nbsp;
-<img src="https://skillicons.dev/icons?i=linux,bash,docker,vim&theme=dark" height="50" />&nbsp;&nbsp;
-<img src="https://skillicons.dev/icons?i=git,github,cmake,vscode&theme=dark" height="50" />
+<img src="https://skillicons.dev/icons?i=c,cpp,go,python,linux,docker&theme=dark" height="50" />
 
 <br><br>
 
