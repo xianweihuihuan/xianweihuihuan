@@ -30,7 +30,7 @@
 - 🐧 熟悉 **Linux 系统编程** 与 **网络编程**，扎实的系统底层功底
 - 🔬 深入研究 **操作系统内核**、**数据库引擎**、**分布式系统** 三大核心领域
 - 🤖 持续探索 **LLM 推理优化**（vLLM / PagedAttention）与 **AI Agent** 前沿技术
-- 🏅 注重 **底层原理**，通过 **CMU 15-445** / **MIT 6.8540** 等课程打透每一层系统抽象
+- 🏅 注重 **底层原理**，不满足于会用，追求知其然更知其所以然
 
 ---
 
@@ -71,12 +71,7 @@
 ### 📊 GitHub Analytics
 
 <div align="center">
-  <picture>
-    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=xianweihuihuan&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a371f7&icon_color=3fb950&text_color=8b949e&ring_color=a371f7&cache_seconds=86400" />
-  </picture>
-  <picture>
-    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=xianweihuihuan&layout=compact&hide_border=true&bg_color=0d1117&title_color=a371f7&text_color=8b949e&langs_count=8&cache_seconds=86400" />
-  </picture>
+  <img width="55%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=xianweihuihuan&layout=compact&hide_border=true&bg_color=0d1117&title_color=a371f7&text_color=8b949e&langs_count=8&cache_seconds=86400" />
 </div>
 
 <br>
