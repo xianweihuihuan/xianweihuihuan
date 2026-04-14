@@ -67,6 +67,28 @@
 
 ---
 
+### 📌 Pinned Repositories
+
+<div align="center">
+  <a href="https://github.com/xianweihuihuan/CMU15445">
+    <img width="47%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=xianweihuihuan&repo=CMU15445&hide_border=true&bg_color=0d1117&title_color=a371f7&icon_color=3fb950&text_color=8b949e&cache_seconds=86400" />
+  </a>&nbsp;&nbsp;
+  <a href="https://github.com/xianweihuihuan/6.8540">
+    <img width="47%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=xianweihuihuan&repo=6.8540&hide_border=true&bg_color=0d1117&title_color=a371f7&icon_color=3fb950&text_color=8b949e&cache_seconds=86400" />
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://github.com/xianweihuihuan/xianwei_OS">
+    <img width="47%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=xianweihuihuan&repo=xianwei_OS&hide_border=true&bg_color=0d1117&title_color=a371f7&icon_color=3fb950&text_color=8b949e&cache_seconds=86400" />
+  </a>&nbsp;&nbsp;
+  <a href="https://github.com/xianweihuihuan/nano-vllm-learn">
+    <img width="47%" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=xianweihuihuan&repo=nano-vllm-learn&hide_border=true&bg_color=0d1117&title_color=a371f7&icon_color=3fb950&text_color=8b949e&cache_seconds=86400" />
+  </a>
+</div>
+
+---
+
 ### 📊 GitHub Analytics
 
 <div align="center">
