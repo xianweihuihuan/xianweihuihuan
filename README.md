@@ -27,6 +27,7 @@
 ### 🧑‍💻 About Me
 
 - 🎓 **西安邮电大学** 在读，专注 **系统底层** 与 **基础架构** 方向
+- 🐧 熟悉 **Linux 系统编程** 与 **网络编程**，扎实的系统底层功底
 - 🔬 深入研究 **操作系统内核**、**数据库引擎**、**分布式系统** 三大核心领域
 - 🤖 持续探索 **LLM 推理优化**（vLLM / PagedAttention）与 **AI Agent** 前沿技术
 - 🏅 注重 **底层原理**，通过 **CMU 15-445** / **MIT 6.8540** 等课程打透每一层系统抽象
@@ -56,7 +57,7 @@
 
 <div align="center">
 
-| &nbsp; | 项目 | 简介 | 技术栈 |
+| &nbsp; | 项目 | 简介 | 语言 |
 |:---:|:---|:---|:---:|
 | 🖥️ | [**xianwei_OS**](https://github.com/xianweihuihuan/xianwei_OS) | 自研操作系统 — 从 Bootloader 到用户态全链路实现 | `C` `x86 ASM` |
 | 🗄️ | [**CMU 15-445**](https://github.com/xianweihuihuan/CMU15445) | CMU 顶级数据库课程 — Buffer Pool / B+Tree / 并发控制 | `C++` |
