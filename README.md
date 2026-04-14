@@ -88,4 +88,10 @@
 
 ---
 
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+</div>
+
+<br>
+
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:c9a0ff,30:a371f7,60:6e40c9,100:0d1117&height=120&section=footer" />
