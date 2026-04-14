@@ -1,13 +1,20 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,10:161b22,30:1a1b27,50:6e40c9,70:a371f7,100:c9a0ff&height=220&section=header&text=&fontSize=0" />
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&height=150&text=衔%20尾&fontSize=80&fontColor=a371f7&desc=Systems%20·%20Infrastructure%20·%20LLM&descSize=18&descAlignY=75&descColor=8b949e&animation=fadeIn" width="100%" />
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=6E40C9&center=true&vCenter=true&random=false&width=500&lines=OS+Kernel+Developer;Database+Engine+Builder;Distributed+Systems+Practitioner;LLM+Inference+Explorer" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=A371F7&center=true&vCenter=true&random=false&width=450&height=50&lines=%3E_+Hey%2C+I'm+%E8%A1%94%E5%B0%BE" />
 
 <br>
 
-[![Followers](https://img.shields.io/github/followers/xianweihuihuan?label=Followers&style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117&color=6e40c9)](https://github.com/xianweihuihuan?tab=followers)&nbsp;
-![Views](https://komarev.com/ghpvc/?username=xianweihuihuan&label=VISITORS&style=for-the-badge&labelColor=0d1117&color=a371f7)
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=6E40C9&center=true&vCenter=true&random=false&width=520&lines=OS+Kernel+Developer;Database+Engine+Builder;Distributed+Systems+Practitioner;LLM+Inference+Explorer" />
+
+<br><br>
+
+![C](https://img.shields.io/badge/C-39.2%25-00599C?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-35.8%25-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Go](https://img.shields.io/badge/Go-14.6%25-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-6.1%25-3776AB?style=flat-square&logo=python&logoColor=white)
+![Assembly](https://img.shields.io/badge/Assembly-3.2%25-6E4C13?style=flat-square&logo=assemblyscript&logoColor=white)
 
 </div>
 
@@ -63,14 +70,18 @@
 ### 📊 GitHub Analytics
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=xianweihuihuan&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a371f7&icon_color=3fb950&text_color=8b949e&ring_color=a371f7" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xianweihuihuan&layout=compact&hide_border=true&bg_color=0d1117&title_color=a371f7&text_color=8b949e&langs_count=8" />
+  <picture>
+    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=xianweihuihuan&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a371f7&icon_color=3fb950&text_color=8b949e&ring_color=a371f7&cache_seconds=86400" />
+  </picture>
+  <picture>
+    <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=xianweihuihuan&layout=compact&hide_border=true&bg_color=0d1117&title_color=a371f7&text_color=8b949e&langs_count=8&cache_seconds=86400" />
+  </picture>
 </div>
 
 <br>
 
 <div align="center">
-  <img width="60%" src="https://github-readme-streak-stats.herokuapp.com?user=xianweihuihuan&hide_border=true&background=0d1117&ring=a371f7&fire=3fb950&currStreakLabel=a371f7&sideLabels=a371f7&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=484f58" />
+  <img width="60%" src="https://streak-stats.demolab.com?user=xianweihuihuan&hide_border=true&background=0d1117&ring=a371f7&fire=3fb950&currStreakLabel=a371f7&sideLabels=a371f7&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=484f58" />
 </div>
 
 <br>
@@ -81,6 +92,4 @@
 
 ---
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
-</div>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:c9a0ff,30:a371f7,60:6e40c9,100:0d1117&height=120&section=footer" />
