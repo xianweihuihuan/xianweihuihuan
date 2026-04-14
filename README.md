@@ -1,33 +1,33 @@
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0F172A,30:1D4ED8,65:7C3AED,100:DB2777&text=Systems%20Engineering&fontSize=42&fontColor=E2E8F0&fontAlignY=38&animation=fadeIn&desc=Low-level%20Systems%20%7C%20Distributed%20Infrastructure%20%7C%20Database%20Internals&descAlignY=58&descSize=16" alt="header" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0B1020,25:1D4ED8,60:7C3AED,100:E11D48&text=Xianwei%20Huihuan&fontSize=46&fontColor=E5E7EB&fontAlignY=38&animation=fadeIn&desc=Kernel%20|%20Distributed%20Systems%20|%20Storage%20Engine%20|%20Network%20Programming&descAlignY=58&descSize=16" alt="header" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3200&pause=900&color=A78BFA&center=true&vCenter=true&width=980&lines=Crafting+High-Performance+Systems;C%2B%2B+%26+Go+for+Distributed+Infrastructure;Exploring+OS+Kernel%2C+LRU-K+%26+KV+Cache;Building+with+Raft+and+Unix+Domain+Sockets" alt="typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=23&duration=3200&pause=900&color=8B5CF6&center=true&vCenter=true&width=980&lines=Building+32-bit+x86+Kernels+from+Bootloader+to+Shell;C%2B%2B+%26+Go+across+Raft%2C+Buffer+Pools+and+Event+Loops;Exploring+Storage+Internals%2C+Linux+Networking+and+Consensus" alt="typing animation" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Focus-Low--level%20Systems-111827?style=flat-square&labelColor=0F172A&color=7C3AED" alt="focus systems" />
-  <img src="https://img.shields.io/badge/Domain-Distributed%20KV-111827?style=flat-square&labelColor=0F172A&color=DB2777" alt="focus kv" />
-  <img src="https://img.shields.io/badge/Research-LLM%20Inference%20Optimization-111827?style=flat-square&labelColor=0F172A&color=2563EB" alt="focus llm" />
+  <code>Low-level Systems</code> • <code>Distributed Consensus</code> • <code>Database Storage</code> • <code>Linux Network Programming</code>
 </p>
 
 ## About Me
 
 <p align="center">
-  I focus on <strong>system-level programming</strong>, <strong>performance-oriented architecture</strong>, and the mechanics of building reliable infrastructure close to the machine.
+  I build and study systems close to the machine, with public work spanning a 32-bit x86 OS kernel, Go-based distributed systems labs,
+  C++ database storage internals, and Linux network servers.
   <br />
-  Current work includes <strong>LLM inference optimization</strong>, especially <strong>PagedAttention</strong>, <strong>KV Cache management</strong>, and the design of <strong>high-performance distributed systems</strong>.
+  My repositories are centered around <strong>C / C++ / Go</strong>, with a clear bias toward <strong>kernel mechanisms</strong>,
+  <strong>Raft-style replication</strong>, <strong>buffer management</strong>, and <strong>event-driven server design</strong>.
 </p>
 
 ## Skill Matrix
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,c,go,python,linux,ubuntu&theme=dark&perline=6" alt="skill icons" />
+  <img src="https://skillicons.dev/icons?i=cpp,c,go,python,linux,bash,cmake&theme=dark&perline=7" alt="skill icons" />
 </p>
 
 <p align="center">
-  <code>Operating Systems</code> • <code>Distributed Systems</code> • <code>Database Internals</code>
+  <code>x86 / Assembly</code> • <code>Raft</code> • <code>Buffer Pool Manager</code> • <code>epoll</code> • <code>Event Loop</code>
 </p>
 
 ## Featured Works
@@ -35,53 +35,50 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><strong><font color="#8B5CF6">OS Kernel</font></strong></h3>
+      <h3><a href="https://github.com/[YOUR_GITHUB_USERNAME]/xianwei_OS"><code>xianwei_OS</code></a></h3>
       <p>
-        A <strong>32-bit preemptive multitasking kernel</strong> built from scratch, covering memory management,
-        interrupt handling, context switching, and process scheduling as an integrated low-level system.
+        A real <strong>32-bit x86 operating system project</strong> that walks the full boot chain from <strong>MBR</strong> and
+        <strong>Loader</strong> into kernel space, then layers on paging, interrupts, thread scheduling, system calls,
+        user processes, a filesystem, and an interactive shell.
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3><strong><font color="#EC4899">HybridKV</font></strong></h3>
+      <h3><a href="https://github.com/[YOUR_GITHUB_USERNAME]/6.8540"><code>6.8540</code></a></h3>
       <p>
-        A <strong>distributed KV database</strong> built on <strong>Raft</strong>, with the consensus layer in Go and a
-        high-performance storage engine in C++, connected through <strong>Unix Domain Sockets</strong> for efficient IPC.
+        A Go distributed-systems workspace covering <strong>MapReduce</strong>, <strong>Raft</strong>, <strong>KV/RSM</strong>,
+        and <strong>ShardKV</strong> labs; the Raft core includes leader election, <strong>AppendEntries</strong>,
+        persistence, and <strong>snapshot installation</strong>.
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><strong><font color="#38BDF8">Database Engine (CMU 15-445)</font></strong></h3>
+      <h3><a href="https://github.com/[YOUR_GITHUB_USERNAME]/CMU15445"><code>CMU15445</code></a></h3>
       <p>
-        Implements the storage core of a relational database, including a <strong>Buffer Pool Manager</strong> and
-        <strong>LRU-K</strong> page replacement strategy with attention to locality, concurrency, and page lifecycle behavior.
+        Database-systems work based on BusTub, focused on the storage layer: the tree includes
+        <strong>BufferPoolManager</strong>, <strong>PageGuard</strong>, replacers, disk scheduling,
+        extendible hashing, and B+Tree-related modules for low-level database internals study.
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3><strong><font color="#F472B6">LLM System Optimization</font></strong></h3>
+      <h3><a href="https://github.com/[YOUR_GITHUB_USERNAME]/muduo_http"><code>muduo_http</code></a></h3>
       <p>
-        Ongoing systems work centered on <strong>multi-tier storage allocator design</strong> and <strong>KV Cache optimization</strong>
-        for efficient large-model inference under constrained runtime resources.
+        A C++ HTTP server stack built around an <strong>epoll-driven event loop</strong>, with Poller, Channel, TimerWheel,
+        loop-thread-pool, connection lifecycle management, HTTP parsing, routing, and static file serving in one codebase.
       </p>
     </td>
   </tr>
 </table>
 
-## Engineering Signals
+## Tech Signals
 
 <p align="center">
-  <code>Raft</code> • <code>Unix Domain Sockets</code> • <code>Buffer Pool Manager</code> • <code>LRU-K</code> • <code>PagedAttention</code> • <code>KV Cache</code>
+  <code>C++</code> • <code>Go</code> • <code>C</code> • <code>Assembly</code> • <code>Raft</code> • <code>Paging</code> • <code>System Calls</code> • <code>Buffer Pool</code> • <code>Disk Scheduler</code> • <code>epoll</code>
 </p>
 
 ## GitHub Analytics
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=[YOUR_GITHUB_USERNAME]&show_icons=true&hide_border=true&theme=synthwave&ring_color=A78BFA&icon_color=F472B6&title_color=E879F9&text_color=E2E8F0" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR_GITHUB_USERNAME]&layout=compact&hide_border=true&theme=synthwave&title_color=E879F9&text_color=E2E8F0" alt="Top languages" />
-</p>
-
-## Contribution Graph
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/[YOUR_GITHUB_USERNAME]/[YOUR_GITHUB_USERNAME]/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=[YOUR_GITHUB_USERNAME]&show_icons=true&hide_border=true&theme=tokyonight&ring_color=8B5CF6&icon_color=38BDF8&title_color=E879F9&text_color=CBD5E1" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR_GITHUB_USERNAME]&layout=compact&hide_border=true&theme=tokyonight&title_color=E879F9&text_color=CBD5E1" alt="Top languages" />
 </p>
