@@ -52,7 +52,7 @@
 
 ---
 
-### 🏆 Featured Projects
+### 🏆 What I've Built & Studied
 
 <div align="center">
 
