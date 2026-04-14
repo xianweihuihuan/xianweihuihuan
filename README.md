@@ -71,25 +71,25 @@
 ### 📊 GitHub Analytics
 
 <div align="center">
-  <img width="55%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=xianweihuihuan&layout=compact&hide_border=true&bg_color=0d1117&title_color=a371f7&text_color=8b949e&langs_count=8&cache_seconds=86400" />
+  <img width="55%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=xianweihuihuan&layout=compact&hide_border=true&bg_color=00000000&title_color=a371f7&text_color=777&langs_count=8&cache_seconds=86400" />
 </div>
 
 <br>
 
 <div align="center">
-  <img width="60%" src="https://streak-stats.demolab.com?user=xianweihuihuan&hide_border=true&background=0d1117&ring=a371f7&fire=3fb950&currStreakLabel=a371f7&sideLabels=a371f7&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=484f58" />
+  <img width="60%" src="https://streak-stats.demolab.com?user=xianweihuihuan&hide_border=true&background=00000000&ring=a371f7&fire=3fb950&currStreakLabel=a371f7&sideLabels=a371f7&currStreakNum=555&sideNums=555&dates=999" />
 </div>
 
 <br>
 
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=xianweihuihuan&hide_border=true&bg_color=0d1117&color=a371f7&line=a371f7&point=3fb950&area=true&area_color=6e40c9" />
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=xianweihuihuan&hide_border=true&bg_color=00000000&color=a371f7&line=a371f7&point=3fb950&area=true&area_color=6e40c9" />
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=default" />
 </div>
 
 <br>
