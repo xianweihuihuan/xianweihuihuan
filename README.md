@@ -1,84 +1,139 @@
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=620&lines=%E4%BD%A0%E5%A5%BD+%F0%9F%91%8B+%E6%88%91%E6%98%AF%E8%A1%94%E5%B0%BE;Systems+%7C+Infra+%7C+LLM+Enthusiast" alt="Typing SVG" />
+</h1>
+
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0B1020,25:1D4ED8,60:7C3AED,100:E11D48&text=Xianwei%20Huihuan&fontSize=46&fontColor=E5E7EB&fontAlignY=38&animation=fadeIn&desc=Kernel%20|%20Distributed%20Systems%20|%20Storage%20Engine%20|%20Network%20Programming&descAlignY=58&descSize=16" alt="header" />
+  <em>「 取法乎上，仅得其中；取法乎中，斯为下矣。」</em>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=23&duration=3200&pause=900&color=8B5CF6&center=true&vCenter=true&width=980&lines=Building+32-bit+x86+Kernels+from+Bootloader+to+Shell;C%2B%2B+%26+Go+across+Raft%2C+Buffer+Pools+and+Event+Loops;Exploring+Storage+Internals%2C+Linux+Networking+and+Consensus" alt="typing animation" />
+  <a href="https://github.com/xianweihuihuan"><img src="https://img.shields.io/github/followers/xianweihuihuan?label=Followers&style=social" alt="GitHub Followers"></a>&nbsp;
+  <img src="https://komarev.com/ghpvc/?username=xianweihuihuan&label=Profile+Views&color=58a6ff&style=flat" alt="Profile Views" />
 </p>
+
+---
+
+## 🧑‍💻 About Me
+
+- 🎓 **西安邮电大学** 在读，专注于 **系统编程** 与 **基础架构**
+- 🔭 正在深入学习 **操作系统内核 · 数据库引擎 · 分布式系统 · LLM 推理框架**
+- 🛠️ 喜欢从底层开始造轮子，相信 *"Build from scratch"* 才能真正理解原理
+- 🌱 目前正在探索 **vLLM** 高性能推理引擎与 **AI Agent** 架构
+- ⚡ 座右铭：追求顶尖课程（CMU / MIT），以高标准要求自己
+
+---
+
+## 🛠️ Tech Stack
 
 <p align="center">
-  <code>Low-level Systems</code> • <code>Distributed Consensus</code> • <code>Database Storage</code> • <code>Linux Network Programming</code>
+  <img src="https://skillicons.dev/icons?i=c,cpp,go,python,linux,bash,cmake,git,github,docker,vim&perline=11" />
 </p>
 
-## About Me
+| 领域 | 技术栈 |
+|:---|:---|
+| **系统编程** | C · x86 Assembly · Linux Kernel · POSIX API |
+| **后端 & 网络** | C++ · Muduo · Epoll · HTTP Server · Socket |
+| **分布式系统** | Go · Raft · MapReduce · Distributed KV |
+| **数据库内核** | C++ · Buffer Pool · B+Tree · Query Execution · Concurrency Control |
+| **AI / LLM** | Python · vLLM · Nano-vLLM · AI Agent |
+| **算法** | LeetCode · 数据结构 · 高精度计算 |
 
-<p align="center">
-  I build and study systems close to the machine, with public work spanning a 32-bit x86 OS kernel, Go-based distributed systems labs,
-  C++ database storage internals, and Linux network servers.
-  <br />
-  My repositories are centered around <strong>C / C++ / Go</strong>, with a clear bias toward <strong>kernel mechanisms</strong>,
-  <strong>Raft-style replication</strong>, <strong>buffer management</strong>, and <strong>event-driven server design</strong>.
-</p>
+---
 
-## Skill Matrix
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,c,go,python,linux,bash,cmake&theme=dark&perline=7" alt="skill icons" />
-</p>
-
-<p align="center">
-  <code>x86 / Assembly</code> • <code>Raft</code> • <code>Buffer Pool Manager</code> • <code>epoll</code> • <code>Event Loop</code>
-</p>
-
-## Featured Works
+## 🏆 Featured Projects
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/[YOUR_GITHUB_USERNAME]/xianwei_OS"><code>xianwei_OS</code></a></h3>
-      <p>
-        A real <strong>32-bit x86 operating system project</strong> that walks the full boot chain from <strong>MBR</strong> and
-        <strong>Loader</strong> into kernel space, then layers on paging, interrupts, thread scheduling, system calls,
-        user processes, a filesystem, and an interactive shell.
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/[YOUR_GITHUB_USERNAME]/6.8540"><code>6.8540</code></a></h3>
-      <p>
-        A Go distributed-systems workspace covering <strong>MapReduce</strong>, <strong>Raft</strong>, <strong>KV/RSM</strong>,
-        and <strong>ShardKV</strong> labs; the Raft core includes leader election, <strong>AppendEntries</strong>,
-        persistence, and <strong>snapshot installation</strong>.
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/[YOUR_GITHUB_USERNAME]/CMU15445"><code>CMU15445</code></a></h3>
-      <p>
-        Database-systems work based on BusTub, focused on the storage layer: the tree includes
-        <strong>BufferPoolManager</strong>, <strong>PageGuard</strong>, replacers, disk scheduling,
-        extendible hashing, and B+Tree-related modules for low-level database internals study.
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/[YOUR_GITHUB_USERNAME]/muduo_http"><code>muduo_http</code></a></h3>
-      <p>
-        A C++ HTTP server stack built around an <strong>epoll-driven event loop</strong>, with Poller, Channel, TimerWheel,
-        loop-thread-pool, connection lifecycle management, HTTP parsing, routing, and static file serving in one codebase.
-      </p>
-    </td>
-  </tr>
+<tr>
+<td width="50%">
+
+### 🖥️ [xianwei_OS](https://github.com/xianweihuihuan/xianwei_OS)
+**从零手写操作系统内核**
+
+`C` `x86 Assembly` `CMake`
+
+从 Bootloader 到内核，徒手构建操作系统，深入理解中断管理、内存管理、进程调度等核心机制。
+
+</td>
+<td width="50%">
+
+### 🗄️ [CMU 15-445](https://github.com/xianweihuihuan/CMU15445)
+**数据库系统实现 — CMU 顶级课程**
+
+`C++` `CMake`
+
+完成 CMU 数据库课程全部 Labs：Buffer Pool Manager、B+ Tree Index、Query Execution、Concurrency Control。
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🌐 [MIT 6.8540](https://github.com/xianweihuihuan/6.8540)
+**分布式系统 — MIT 经典课程 (原 6.824)**
+
+`Go`
+
+实现 MapReduce、Raft 共识算法、分布式 KV 存储等核心分布式系统组件。
+
+</td>
+<td width="50%">
+
+### 🔗 [muduo_http](https://github.com/xianweihuihuan/muduo_http)
+**高性能 HTTP 服务器**
+
+`C++`
+
+基于 Muduo 网络库，实现高并发 HTTP Server，深入 Reactor 模型与事件驱动编程。
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🐧 [learn_linux_system](https://github.com/xianweihuihuan/learn_linux_system)
+**Linux 系统编程实战** ⭐
+
+`C++` `C`
+
+深入 Linux 系统编程：多线程、进程间通信、信号处理、文件 I/O 等底层机制。
+
+</td>
+<td width="50%">
+
+### 🤖 [nano-vllm-learn](https://github.com/xianweihuihuan/nano-vllm-learn) · [vllm-learn](https://github.com/xianweihuihuan/vllm-learn)
+**LLM 高性能推理引擎学习**
+
+`Python`
+
+研究 vLLM 架构源码，学习 PagedAttention、Continuous Batching 等 LLM Serving 关键技术。
+
+</td>
+</tr>
 </table>
 
-## Tech Signals
+---
+
+## 📊 GitHub Stats
 
 <p align="center">
-  <code>C++</code> • <code>Go</code> • <code>C</code> • <code>Assembly</code> • <code>Raft</code> • <code>Paging</code> • <code>System Calls</code> • <code>Buffer Pool</code> • <code>Disk Scheduler</code> • <code>epoll</code>
+  <a href="https://github.com/xianweihuihuan">
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=xianweihuihuan&show_icons=true&theme=github_dark&hide_border=true&count_private=true&bg_color=0d1117" />
+  </a>
+  <a href="https://github.com/xianweihuihuan">
+    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xianweihuihuan&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&langs_count=8" />
+  </a>
 </p>
 
-## GitHub Analytics
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=xianweihuihuan&theme=github-dark-blue&hide_border=true&background=0d1117" alt="GitHub Streak" />
+</p>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=[YOUR_GITHUB_USERNAME]&show_icons=true&hide_border=true&theme=tokyonight&ring_color=8B5CF6&icon_color=38BDF8&title_color=E879F9&text_color=CBD5E1" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR_GITHUB_USERNAME]&layout=compact&hide_border=true&theme=tokyonight&title_color=E879F9&text_color=CBD5E1" alt="Top languages" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=xianweihuihuan&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff" alt="Activity Graph" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=100&section=footer" />
 </p>
