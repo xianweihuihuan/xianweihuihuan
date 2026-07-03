@@ -11,7 +11,7 @@ Currently looking for **AI Infrastructure / LLM Inference Systems internship** o
 - vLLM, FlexKV, and vLLM V1 KV Connector integration
 - GPU / CPU / SSD tiered cache and transfer paths
 - Task lifecycle, ownership, shutdown, and reliability in runtime systems
-- Learning CUDA / GPU systems, especially GPU <-> CPU data movement
+- Learning CUDA / GPU systems, especially GPU ↔ CPU data movement
 
 ## Featured Work
 
@@ -30,7 +30,7 @@ A KV Cache offloading and reuse system for vLLM.
 - Supports GPU / CPU / SSD tiered KV Cache.
 - Integrates with the vLLM V1 KV Connector.
 - Separates logical cache management from physical transfer paths.
-- Implements the GPU <-> CPU transfer path and adapts to vLLM 0.23 KV layout changes.
+- Implements the GPU ↔ CPU transfer path and adapts to vLLM 0.23 KV layout changes.
 - On my long-context benchmark workload: RTX 5090 32GB + Qwen3-8B + vLLM 0.23.
   - Around 30k context: TTFT reduced from ~3806 ms to ~408 ms, about **9.32x** faster.
   - When the working set exceeds GPU KV capacity, native vLLM APC reaches 100% miss; MiniFlex keeps 0% miss with TTFT around ~190 ms.
@@ -48,7 +48,7 @@ A 32-bit x86 teaching operating system project.
 - Distributed systems: [MapReduce, KV service, Raft](https://github.com/xianweihuihuan/6.8540)
 - Database internals: [Buffer Pool, B+Tree, PageGuard, DiskScheduler](https://github.com/xianweihuihuan/CMU15445)
 - LLM inference study: [vLLM / PagedAttention notes and experiments](https://github.com/xianweihuihuan/nano-vllm-learn)
-- CUDA / GPU systems learning: memory hierarchy, kernel basics, GPU <-> CPU data movement, pinned memory, Roofline model
+- CUDA / GPU systems learning: memory hierarchy, kernel basics, GPU ↔ CPU data movement, pinned memory, Roofline model
 
 ## Technical Stack
 
@@ -60,3 +60,4 @@ A 32-bit x86 teaching operating system project.
 ## Contact
 
 - GitHub: [xianweihuihuan](https://github.com/xianweihuihuan)
+- Email: xianweihuihuan@163.com
