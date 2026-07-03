@@ -1,97 +1,63 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,10:161b22,30:1a1b27,50:6e40c9,70:a371f7,100:c9a0ff&height=220&section=header&text=&fontSize=0" />
+# xianweihuihuan
 
-<div align="center">
+Computer Science undergraduate at Xi'an University of Posts and Telecommunications, focused on **system software** and **LLM inference infrastructure**.
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=A371F7&center=true&vCenter=true&random=false&width=450&height=50&lines=%3E_+Hey%2C+I'm+%E8%A1%94%E5%B0%BE" />
+Currently looking for **AI Infrastructure / LLM Inference Systems internship** opportunities, with a focus on KV Cache management, vLLM integration, cache offloading, transfer correctness, and runtime reliability.
 
-<br>
+## Current Focus
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=6E40C9&center=true&vCenter=true&random=false&width=520&lines=OS+Kernel+Developer;Database+Engine+Builder;Distributed+Systems+Practitioner;LLM+Inference+Explorer" />
+- LLM inference infrastructure and KV Cache systems
+- KV Cache offloading / reuse for long-context serving
+- vLLM, FlexKV, and vLLM V1 KV Connector integration
+- GPU / CPU / SSD tiered cache and transfer paths
+- Task lifecycle, ownership, shutdown, and reliability in runtime systems
+- Learning CUDA / GPU systems, especially GPU <-> CPU data movement
 
-<br>
+## Featured Work
 
-*✨「 取法乎上，仅得其中；取法乎中，斯为下矣。」*
+### FlexKV upstream contributions
 
-<br><br>
+Contributed **7 merged PRs** to [`taco-project/FlexKV`](https://github.com/taco-project/FlexKV).
 
-![C](https://img.shields.io/badge/C-39.2%25-00599C?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-35.8%25-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Go](https://img.shields.io/badge/Go-14.6%25-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-6.1%25-3776AB?style=flat-square&logo=python&logoColor=white)
-![Assembly](https://img.shields.io/badge/Assembly-3.2%25-6E4C13?style=flat-square&logo=assemblyscript&logoColor=white)
+- Fixed vLLM 0.23+ non-MLA KV layout compatibility by introducing the `LAYERBLOCK` layout.
+- Fixed KV transfer correctness issues and layout / stride compatibility problems.
+- Fixed batch `KVTask` lifecycle and ownership issues.
+- Fixed `KVTask` leaks on early-return paths in match / put flows.
+- Fixed `slot_mapping` state consistency issues.
+- Fixed `TransferWorker` shutdown signal handling.
+- Fixed shared pool concurrency safety issues.
+- Added Mempool block id boundary validation.
 
-</div>
+### MiniFlex
 
----
+A KV Cache offloading and reuse system for vLLM.
 
-### 🧑‍💻 About Me
+- Supports GPU / CPU / SSD tiered KV Cache.
+- Integrates with the vLLM V1 KV Connector.
+- Separates logical cache management from physical transfer paths.
+- Implements the GPU <-> CPU transfer path and adapts to vLLM 0.23 KV layout changes.
+- Benchmark: RTX 5090 32GB + Qwen3-8B + vLLM 0.23.
+  - Around 30k context: TTFT reduced from ~3806 ms to ~408 ms, about **9.32x** faster.
+  - When the working set exceeds GPU KV capacity, native vLLM APC reaches 100% miss; MiniFlex keeps 0% miss with TTFT around ~190 ms.
 
-- 🎓 **西安邮电大学** 在读，专注 **系统底层** 与 **基础架构** 方向
-- 🐧 熟悉 **Linux 系统编程** 与 **网络编程**，扎实的系统底层功底
-- 🔬 深入研究 **操作系统内核**、**数据库引擎**、**分布式系统** 三大核心领域
-- 🤖 持续探索 **LLM 推理优化**（vLLM / PagedAttention）与 **AI Agent** 前沿技术
-- 🏅 注重 **底层原理**，不满足于会用，追求知其然更知其所以然
+### [xianwei_OS](https://github.com/xianweihuihuan/xianwei_OS)
 
----
+A 32-bit x86 teaching operating system project.
 
-### ⚙️ Tech Stack
+- Bootloader, protected mode, paging, interrupts, and system calls.
+- Process / thread scheduling and file system support.
+- `fork`, `exec`, `wait`, `exit`, pipe, and user-space programs.
 
-<div align="center">
+## Systems Background
 
-<img src="https://skillicons.dev/icons?i=c,cpp,go,python,linux,docker,git,cmake,bash,pytorch,github,vscode&theme=dark" height="50" />
+- Distributed systems: [MapReduce, KV service, Raft](https://github.com/xianweihuihuan/6.8540)
+- Database internals: [Buffer Pool, B+Tree, PageGuard, DiskScheduler](https://github.com/xianweihuihuan/CMU15445)
+- LLM inference study: [vLLM / PagedAttention notes and experiments](https://github.com/xianweihuihuan/nano-vllm-learn)
+- CUDA / GPU systems learning: memory hierarchy, kernel basics, GPU <-> CPU data movement, pinned memory, Roofline model
 
-<br><br>
+## Technical Stack
 
-| 🖥️ 操作系统内核 | 🗄️ 数据库引擎 | 🌐 分布式系统 | 🤖 AI / LLM |
-|:---:|:---:|:---:|:---:|
-| Bootloader | Buffer Pool | Raft 共识 | vLLM |
-| 中断 / 内存管理 | B+ Tree 索引 | MapReduce | PagedAttention |
-| 进程调度 | Query Execution | Distributed KV | Continuous Batching |
-| x86 Assembly | 并发控制 | Fault Tolerance | AI Agent |
-
-</div>
-
----
-
-### 🏆 What I've Built & Studied
-
-<div align="center">
-
-| &nbsp; | 项目 | 简介 | 语言 |
-|:---:|:---|:---|:---:|
-| 🖥️ | [**xianwei_OS**](https://github.com/xianweihuihuan/xianwei_OS) | 自研操作系统 — 从 Bootloader 到用户态全链路实现 | `C` `x86 ASM` |
-| 🗄️ | [**CMU 15-445**](https://github.com/xianweihuihuan/CMU15445) | CMU 顶级数据库课程 — Buffer Pool / B+Tree / 并发控制 | `C++` |
-| 🌐 | [**MIT 6.8540**](https://github.com/xianweihuihuan/6.8540) | MIT 分布式系统 — Raft / MapReduce / Distributed KV | `Go` |
-| 🤖 | [**vLLM 系列**](https://github.com/xianweihuihuan/nano-vllm-learn) | LLM 高性能推理引擎架构与源码研究 | `Python` |
-
-</div>
-
----
-
-### 📊 GitHub Analytics
-
-<div align="center">
-  <img width="55%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=xianweihuihuan&layout=compact&hide_border=true&bg_color=00000000&title_color=a371f7&text_color=777&langs_count=8&cache_seconds=86400" />
-</div>
-
-<br>
-
-<div align="center">
-  <img width="60%" src="https://streak-stats.demolab.com?user=xianweihuihuan&hide_border=true&background=00000000&ring=a371f7&fire=3fb950&currStreakLabel=a371f7&sideLabels=a371f7&currStreakNum=555&sideNums=555&dates=999" />
-</div>
-
-<br>
-
-<div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=xianweihuihuan&hide_border=true&bg_color=00000000&color=a371f7&line=a371f7&point=3fb950&area=true&area_color=6e40c9" />
-</div>
-
----
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=default" />
-</div>
-
-<br>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:c9a0ff,30:a371f7,60:6e40c9,100:0d1117&height=120&section=footer" />
+- Languages: C/C++, Python, Go
+- Systems: Linux, Git, CMake, Bash
+- LLM inference: vLLM, FlexKV, KV Cache, CUDA basics
+- Foundations: operating systems, distributed systems, database internals
