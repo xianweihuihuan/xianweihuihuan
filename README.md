@@ -19,14 +19,9 @@ Currently looking for **AI Infrastructure / LLM Inference Systems internship** o
 
 Contributed **7 merged PRs** to [`taco-project/FlexKV`](https://github.com/taco-project/FlexKV).
 
-- Fixed vLLM 0.23+ non-MLA KV layout compatibility by introducing the `LAYERBLOCK` layout.
-- Fixed KV transfer correctness issues and layout / stride compatibility problems.
-- Fixed batch `KVTask` lifecycle and ownership issues.
-- Fixed `KVTask` leaks on early-return paths in match / put flows.
-- Fixed `slot_mapping` state consistency issues.
-- Fixed `TransferWorker` shutdown signal handling.
-- Fixed shared pool concurrency safety issues.
-- Added Mempool block id boundary validation.
+- [PR #187](https://github.com/taco-project/FlexKV/pull/187): addressed vLLM 0.23+ non-MLA KV layout changes that caused incorrect `num_blocks` detection, wrong stride calculation, and KV transfer corruption. Added the `LAYERBLOCK` layout and tensor-shape based detection for old/new layouts.
+- [PR #184](https://github.com/taco-project/FlexKV/pull/184): addressed sub-task ownership / lifecycle leaks after batch `KVTask` merge. Moved ownership transfer into the batch merge stage and maintained batch result demux.
+- Other fixes: early-return `KVTask` leaks in match / put flows, `slot_mapping` consistency, `TransferWorker` shutdown signaling, shared pool concurrency safety, and Mempool block id validation.
 
 ### MiniFlex
 
@@ -36,7 +31,7 @@ A KV Cache offloading and reuse system for vLLM.
 - Integrates with the vLLM V1 KV Connector.
 - Separates logical cache management from physical transfer paths.
 - Implements the GPU <-> CPU transfer path and adapts to vLLM 0.23 KV layout changes.
-- Benchmark: RTX 5090 32GB + Qwen3-8B + vLLM 0.23.
+- On my long-context benchmark workload: RTX 5090 32GB + Qwen3-8B + vLLM 0.23.
   - Around 30k context: TTFT reduced from ~3806 ms to ~408 ms, about **9.32x** faster.
   - When the working set exceeds GPU KV capacity, native vLLM APC reaches 100% miss; MiniFlex keeps 0% miss with TTFT around ~190 ms.
 
@@ -61,3 +56,7 @@ A 32-bit x86 teaching operating system project.
 - Systems: Linux, Git, CMake, Bash
 - LLM inference: vLLM, FlexKV, KV Cache, CUDA basics
 - Foundations: operating systems, distributed systems, database internals
+
+## Contact
+
+- GitHub: [xianweihuihuan](https://github.com/xianweihuihuan)
